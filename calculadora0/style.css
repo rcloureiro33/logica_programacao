@@ -1,0 +1,78 @@
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-operacao {
+    color:  rgb(250, 16, 16);
+    background-color: #3b3b3b;
+    border-color: black;
+    border-width: 1px;
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+}
+
+.btn-number {
+    color:  #ffff;
+    background-color: #3b3b3b;
+    border-color: black;
+    border-width: 1px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+}
+
+.btn-igual {
+    color:  #ffff;
+    background-color: red;
+    border-color: black;
+    border-width: 1px;
+    width: 40px;
+    height: 80px;
+    font-size: 22px;
+}
+
+.btn-clean {
+    color:  #ffff;
+    background-color: red;
+    border-color: black;
+    border-width: 1px;
+    width: 40px;
+    height: 80px;
+    font-size: 22px;
+}
+.corpo-calculadora {
+    background-color: #333b57;
+    display: flex;
+    flex-direction: column;
+    height: 286px;
+    width: 166px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    justify-content: center;
+    align-items: center;
+}
+
+.display {
+    width: 160px;
+    height: 80px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    text-align: right;
+}
+
+.teclado {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn-linha-inferior {
+    display: flex;
+    width: 120px;
+    flex-wrap: wrap;
+}

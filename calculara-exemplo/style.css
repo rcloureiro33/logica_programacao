@@ -1,0 +1,105 @@
+
+
+body {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+.btn-operacao {
+	color: #ff3664;
+	background-color: #50566e;
+	border-color: #252b4a;
+	border-width: 1px;
+	width: 40px;
+	height: 40px;
+	font-size: 14px;
+	border-style: solid;
+}
+.btn-operacao:hover{
+    color: rgb(0, 0, 0);
+
+}
+
+.btn-number {
+	color: #ffffff;
+	background-color: #3b3f5d;
+	border-color: #252b4a;
+	border-width: 1px;
+	width: 40px;
+	height: 40px;
+	font-size: 14px;
+	border-style: solid;
+}
+.btn-number:hover{
+    color: rgb(0, 0, 0);
+
+}
+
+.btn-igual {
+	color: #ffffff;
+	background-color: #ff3664;
+	border-color: #252b4a;
+	border-width: 1px;
+	width: 40px;
+	height: 80px;
+	font-size: 22px;
+	border-style: solid;
+}
+
+.btn-igual:hover{
+    color: rgb(68, 63, 63);
+
+}
+
+.calculadora-corpo {
+	position: absolute;
+	background-color: rgba(0,0,0,0.7);
+	display: flex;
+	flex-direction: column;
+	top: 50%;
+    left: 50%;
+	height: 286px;
+	width: 166px;
+	transform: translate(-50%,-50%);
+    border-radius: 15px;
+	justify-content: center;
+	align-items: center;
+}
+
+.display {
+	width: 160px;
+	height: 40px;
+	background-color: transparent;
+	border-color: none;
+	
+	color: white;
+	text-align: right;
+}
+
+.teclado {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.btn-linha-inferior {
+	display: flex;
+	width: 120px;
+	flex-wrap: wrap;
+}
+.fundo{
+    background-image: linear-gradient(45deg,black,rgb(75, 49, 134));
+    width: 100%;
+    height: 100%;
+    
+}
+.titulo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    left: 50%;
+}
